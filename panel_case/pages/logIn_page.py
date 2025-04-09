@@ -23,7 +23,7 @@ class LogIn:
 
         # Şifre alanına şifreyi girme
         password_area = self.driver.find_element(*LogInLocators.PASSWORD_FIELD)
-        password_area.send_keys("")  # Buraya şifreyi girin
+        password_area.send_keys("enter pass")  # Buraya şifreyi girin
 
         # Giriş butonuna tıklama
         login_button = self.driver.find_element(*LogInLocators.LOGIN_BUTTON)
